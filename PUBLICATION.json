@@ -1,0 +1,66 @@
+{
+  "repository": "sharpninja/csharp-rust-rfcs",
+  "timestamp": "2026-11-10T09:16:20",
+  "purpose": "Initial request for comments publication",
+  "whitepaperVersion": "1.6",
+  "proposalStatus": "OPEN_FOR_COMMENT",
+  "architecturalApproval": "NOT_APPROVED",
+  "implementationAcceptance": "NOT_ESTABLISHED",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 90,
+      "sha256": "843BCB7D2C820D1B618619759F0E0C93F29850B445165742130A7F5C130D71E3"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 196,
+      "sha256": "AC15ACCB7CEF38C7EF35F1C002AE0B6ABCF0174E4A8F19B9263DF13D8127A1DB"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/technical-feedback.yml",
+      "bytes": 1877,
+      "sha256": "CBD0749A32C097CDF18827E0D5AFF38FF59BD65D35B4BE08EBA7AFC3E5D5A245"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 925,
+      "sha256": "11AA856A4B6BBECA4C49220936B3C3C664621D8F39FC27F85694971BD4C08326"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 77,
+      "sha256": "7BCC32A47B9B030DD5E9DB40853F0320885405384DB16CB874681AB4EB76C591"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 3146,
+      "sha256": "BF2AA3A817ED5CB0A409D9AE67788B24CE9F94461EA5B2B3381EE47C33373270"
+    },
+    {
+      "path": "docs/whitepaper/v1.6/csharp-rust-semantic-transpiler.md",
+      "bytes": 227489,
+      "sha256": "CF7028A739B8819C3FC5E55167CD37C1C9A15DC00BE099BE8BF4D5868EFF8096"
+    },
+    {
+      "path": "docs/whitepaper/v1.6/csharp-rust-semantic-transpiler.pdf",
+      "bytes": 1212775,
+      "sha256": "A10DBFE1C04F12A5DF6146BF34B59D84A546A1AF392BB7F7E4D0D353BBDCBA24"
+    },
+    {
+      "path": "docs/whitepaper/v1.6/verification.json",
+      "bytes": 1046,
+      "sha256": "D564FE1AA83C12FDC36EB9A2357ABE6B4F3A35C1423DE313166A1F05CB0A3823"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3676,
+      "sha256": "E3A5AD0359BE738DC6CB2EE915C0F7A94B66F1E48670EA2AA26983C1B0CD386B"
+    },
+    {
+      "path": "rfcs/0001-csharp-rust-semantic-transpiler.md",
+      "bytes": 4637,
+      "sha256": "200F5C2905EE5B2A2B6ED9331B078DB021D7D20F16E9718B2912C9A61E068F93"
+    }
+  ]
+}

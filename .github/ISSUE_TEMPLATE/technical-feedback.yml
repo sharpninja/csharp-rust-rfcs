@@ -1,0 +1,57 @@
+name: Technical feedback
+description: Report a finding, investigate feasibility, or propose a correction to RFC 0001.
+title: '[RFC 0001] '
+body:
+- type: markdown
+  attributes:
+    value: Please distinguish documented facts, proposals and experiments actually run. The baseline is whitepaper v1.6.
+- type: dropdown
+  id: feedback-kind
+  attributes:
+    label: Kind of feedback
+    options:
+    - Inconsistency or stale reference
+    - Unsupported claim or counterexample
+    - M0 feasibility investigation
+    - Design proposal or tradeoff
+    - Validation or assurance gap
+    - Other technical feedback
+  validations:
+    required: true
+- type: input
+  id: version-section
+  attributes:
+    label: Whitepaper version and section
+    placeholder: v1.6, section 16.2 or Appendix A.7
+  validations:
+    required: true
+- type: input
+  id: traceability
+  attributes:
+    label: Related IDs
+    description: Requirement, decision or validation case IDs, when applicable.
+    placeholder: M0-RECOVERY, V-RECOVERY-02
+- type: textarea
+  id: finding
+  attributes:
+    label: Finding or question
+    description: Quote the claim and explain the observable problem or unanswered question.
+  validations:
+    required: true
+- type: textarea
+  id: sources
+  attributes:
+    label: Supporting evidence
+    description: Link primary sources with versions or commits, counterexamples, or experiment receipts. State when evidence is still missing.
+  validations:
+    required: true
+- type: textarea
+  id: proposal
+  attributes:
+    label: Proposed correction and tradeoffs
+    description: Identify alternatives and any owner decision required.
+- type: textarea
+  id: validation
+  attributes:
+    label: Validation experiment
+    description: Describe inputs, expected observations and a negative control. Label unrun tests as proposed.

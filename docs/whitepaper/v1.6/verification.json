@@ -1,0 +1,35 @@
+{
+  "version": "1.6",
+  "scope": "Document integrity and author visual review only",
+  "documentChecks": {
+    "passed": 77,
+    "failed": 0,
+    "verifiedBodyBlocks": 1129,
+    "sourceLinks": 79,
+    "pages": 67
+  },
+  "authorVisualReview": {
+    "allPagesInspectedInContactSheets": true,
+    "fullSizePagesInspected": [
+      29,
+      40,
+      41,
+      42,
+      43,
+      52,
+      56,
+      62
+    ],
+    "result": "No clipping, missing content or overlap observed"
+  },
+  "reviewFindingsApplied": 6,
+  "unresolvedM0Investigations": 9,
+  "proposedValidationCases": 43,
+  "semanticCasesExecuted": 0,
+  "architecturalApprovalsSupplied": 0,
+  "implementationAcceptance": "NOT_ESTABLISHED",
+  "independentHostileReview": "NOT RUN, not claimed",
+  "sourceReceiptSha256": "0EA97869CB9F14554B5FB1101A66B844AF794DC3AE280D2D543BC5B737410C90",
+  "markdownSha256": "CF7028A739B8819C3FC5E55167CD37C1C9A15DC00BE099BE8BF4D5868EFF8096",
+  "pdfSha256": "A10DBFE1C04F12A5DF6146BF34B59D84A546A1AF392BB7F7E4D0D353BBDCBA24"
+}
